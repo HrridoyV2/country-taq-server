@@ -47,4 +47,4 @@ app.get("/", (req, res) => {
   res.send("Application is working successfully");
 });
 
-app.listen(port || process.env.PORT);
+app.listen(process.env.PORT);
